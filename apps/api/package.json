@@ -1,0 +1,19 @@
+{
+  "name": "@vestiaire/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.15.0",
+    "@google-cloud/vertexai": "^1.9.0",
+    "firebase-admin": "^13.0.0",
+    "pg": "^8.20.0"
+  }
+}

@@ -1,0 +1,24 @@
+stories:
+  1-1-greenfield-project-bootstrap: done
+  1-2-authentication-data-foundation: done
+  1-3-user-registration-native-sign-in: review
+  1-4-password-reset-session-refresh-and-sign-out: review
+  1-5-onboarding-profile-setup-first-5-items: review
+  1-6-push-notification-permissions-preferences: review
+  1-7-account-deletion-gdpr: review
+  2-1-upload-item-photo-camera-gallery: review
+  2-2-ai-background-removal-upload: review
+  2-3-ai-item-categorization-tagging: review
+  2-4-manual-metadata-editing-creation: review
+  2-5-wardrobe-grid-filtering: review
+  2-6-item-detail-view-management: review
+  2-7-neglect-detection-badging: review
+  3-1-location-permission-weather-widget: review
+  3-2-fast-weather-loading-local-caching: review
+  3-3-practical-weather-aware-outfit-context: review
+  3-4-calendar-permission-card: review
+  3-5-calendar-event-fetching-classification: review
+  3-6-event-detail-override: review
+  4-1-daily-ai-outfit-generation: review
+  4-2-outfit-generation-swipe-ui: review
+  4-3-manual-outfit-building: review

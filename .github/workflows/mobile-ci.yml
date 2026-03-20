@@ -1,0 +1,25 @@
+name: Mobile CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-mobile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - run: flutter pub get
+        working-directory: apps/mobile
+      - run: flutter analyze
+        working-directory: apps/mobile
+      - run: >-
+          flutter test
+          --dart-define=VESTIAIRE_APP_ENV=ci
+          --dart-define=VESTIAIRE_API_BASE_URL=http://127.0.0.1:8080
+        working-directory: apps/mobile

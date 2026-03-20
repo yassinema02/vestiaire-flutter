@@ -1,0 +1,136 @@
+# generated: 2026-03-09
+# project: bmad
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: _bmad-output/implementation-artifacts
+#
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog -> in-progress: Automatically when first story is created (via create-story)
+#   - in-progress -> done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - SM typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-03-09
+project: bmad
+project_key: NOKEY
+tracking_system: file-system
+story_location: _bmad-output/implementation-artifacts
+
+development_status:
+  epic-1: done
+  1-1-greenfield-project-bootstrap: done
+  1-2-authentication-data-foundation: done
+  1-3-user-registration-native-sign-in: done
+  1-4-password-reset-session-refresh-and-sign-out: done
+  1-5-onboarding-profile-setup-first-5-items: done
+  1-6-push-notification-permissions-preferences: done
+  1-7-account-deletion-gdpr: done
+  epic-1-retrospective: optional
+  epic-2: done
+  2-1-upload-item-photo-camera-gallery: done
+  2-2-ai-background-removal-upload: done
+  2-3-ai-item-categorization-tagging: done
+  2-4-manual-metadata-editing-creation: done
+  2-5-wardrobe-grid-filtering: done
+  2-6-item-detail-view-management: done
+  2-7-neglect-detection-badging: done
+  epic-2-retrospective: optional
+  epic-3: done
+  3-1-location-permission-weather-widget: done
+  3-2-fast-weather-loading-local-caching: done
+  3-3-practical-weather-aware-outfit-context: done
+  3-4-calendar-sync-permission-selection: done
+  3-5-calendar-event-fetching-classification: done
+  3-6-manual-event-classification-override: done
+  epic-3-retrospective: optional
+  epic-4: done
+  4-1-daily-ai-outfit-generation: done
+  4-2-outfit-generation-swipe-ui: done
+  4-3-manual-outfit-building: done
+  4-4-outfit-history-management: done
+  4-5-ai-usage-limits-enforcement: done
+  4-6-recency-bias-mitigation: done
+  4-7-morning-outfit-notifications: done
+  epic-4-retrospective: optional
+  epic-5: done
+  5-1-log-today-s-outfit-wear-counts: done
+  5-2-wear-logging-evening-reminder: done
+  5-3-monthly-wear-calendar-view: done
+  5-4-basic-wardrobe-value-analytics: done
+  5-5-top-worn-neglected-items-analytics: done
+  5-6-category-distribution-charts: done
+  5-7-ai-generated-analytics-summary: done
+  epic-5-retrospective: optional
+  epic-6: done
+  6-1-style-points-rewards: done
+  6-2-user-progression-levels: done
+  6-3-streak-tracking-freezes: done
+  6-4-badge-achievement-system: done
+  6-5-challenge-rewards-premium-trial: done
+  epic-6-retrospective: optional
+  epic-7: done
+  7-1-premium-subscription-purchase: done
+  7-2-premium-feature-access-enforcement: done
+  7-3-ai-resale-listing-generation: done
+  7-4-resale-status-history-tracking: done
+  epic-7-retrospective: optional
+  epic-8: done
+  8-1-product-url-scraping: done
+  8-2-product-screenshot-upload: done
+  8-3-review-extracted-product-data: done
+  8-4-purchase-compatibility-scoring: done
+  8-5-shopping-match-insight-display: done
+  epic-8-retrospective: optional
+  epic-9: done
+  9-1-squad-creation-management: done
+  9-2-ootd-post-creation: done
+  9-3-social-feed-filtering: done
+  9-4-reactions-comments: done
+  9-5-steal-this-look-matcher: done
+  9-6-social-notification-preferences: done
+  epic-9-retrospective: optional
+  epic-10: done
+  10-1-bulk-photo-gallery-selection: done
+  10-2-bulk-extraction-processing: done
+  10-3-extraction-progress-review-flow: done
+  epic-10-retrospective: optional
+  epic-11: done
+  11-1-brand-value-analytics: done
+  11-2-sustainability-scoring-co2-savings: done
+  11-3-wardrobe-gap-analysis: done
+  11-4-seasonal-reports-heatmaps: done
+  epic-11-retrospective: optional
+  epic-12: done
+  12-1-event-display-suggestions: done
+  12-2-outfit-scheduling-plan-week: done
+  12-3-formal-event-reminders: done
+  12-4-travel-mode-multi-day-trip-packing: done
+  epic-12-retrospective: optional
+  epic-13: done
+  13-1-wardrobe-health-score: done
+  13-2-monthly-resale-prompts: done
+  13-3-spring-clean-declutter-flow-donations: done
+  epic-13-retrospective: optional

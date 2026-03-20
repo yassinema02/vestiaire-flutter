@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "62236028548",
+    "project_id": "vestiaire-20b29",
+    "storage_bucket": "vestiaire-20b29.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62236028548:android:75e84ec1aae1183fb11cd1",
+        "android_client_info": {
+          "package_name": "com.vesiaire.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChrcBczr6R6pSaM1Si4PY9O9iCQcKnNS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62236028548:android:b14bc06e4108ff33b11cd1",
+        "android_client_info": {
+          "package_name": "com.vestiaire.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChrcBczr6R6pSaM1Si4PY9O9iCQcKnNS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+name: vestiaire_mobile
+description: Vestiaire mobile application scaffold.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.2
+  google_sign_in: ^6.2.2
+  sign_in_with_apple: ^6.1.4
+  flutter_secure_storage: ^9.2.4
+  http: ^1.3.0
+  crypto: ^3.0.6
+  image_picker: ^1.1.2
+  firebase_messaging: ^15.2.4
+  cached_network_image: ^3.4.1
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+  shared_preferences: ^2.3.4
+  device_calendar: ^4.3.3
+  purchases_flutter: ^9.13.2
+  purchases_ui_flutter: ^9.13.2
+  fl_chart: ^0.70.2
+  intl: ^0.19.0
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+  share_plus: ^10.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
